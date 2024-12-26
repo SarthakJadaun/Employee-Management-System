@@ -1,0 +1,28 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+
+}
+body{
+  background-color: rgb(205, 85, 85);
+} */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+}
+body{
+  background-color: black;
+  
+}
+#tasklist::-webkit-scrollbar{
+display: none;  
+}
